@@ -1,0 +1,68 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    /* İsteğe bağlı olarak daha fazla stil ekleyin */
+  }
+  
+  .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px; /* Sol yerine sağa taşı */
+    top: 36px;
+  }
+  
+  /* Diğer stiller aynı kalabilir */
+  
+  
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  .bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  .menu-item {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #d1d1d1;
+    transition: color 0.2s;
+  }
+  
+  .menu-item:hover {
+    color: white;
+  }
+  

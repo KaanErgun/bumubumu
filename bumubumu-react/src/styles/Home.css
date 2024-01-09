@@ -1,0 +1,33 @@
+.home-container {
+    display: flex;
+    height: 100vh; /* Tam ekran yüksekliği */
+  }
+  
+  .half {
+    flex: 1; /* Her bir bölge ekranın yarısını kaplar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Tıklanabilir alan görseli */
+    font-size: 24px;
+  }
+  /* Mevcut stilleri koruyun ve aşağıdakileri ekleyin */
+
+  .half-content {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .half:hover .half-content {
+    transform: translateY(-10px);
+  }
+  
+  
+  
+  .left-side {
+    background-color: #ffdddd;
+  }
+  
+  .right-side {
+    background-color: #ddffdd;
+  }
+  
